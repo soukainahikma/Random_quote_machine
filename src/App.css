@@ -1,3 +1,19 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+  
+header{
+    min-height:100vh;
+    transition: 0.5s;
+    transition-timing-function: ease-in;
+    background-color:  rgb(188, 188, 224);/* this is the background color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
 .container
 {
     display: flex;
