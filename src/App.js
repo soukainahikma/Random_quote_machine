@@ -11,10 +11,10 @@ function App() {
 	const [quote, setQuote] = useState(quotes[0]);
 	return (
 		<header style={{ backgroundColor: quote.color }}>
-			<div className="container">
-				<Quotes quote={quote} />
+			<div id='quote-box' className="container">
+				<Quotes quote={quote} color={quote.color}/>
 				<hr />
-				<Next next={setQuote} items={quotes} />
+				<Next next={setQuote} items={quotes} color={quote.color}/>
 			</div>
 		</header>
 

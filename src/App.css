@@ -60,28 +60,27 @@ hr {
 }
 .twitter
 {
-    border:1px solid rgb(34, 145, 255);
-    border-radius: 4px;
-    background-color: rgb(34, 145, 255);
+    border:none;
     color: white;
     text-align: center;
     font-size: 1.8em;
 	width: 60px;
-	height: 35px;
+	height: 36px;
 	line-height: 40px;
+
 }
 .next
 {
     font-size:18px;
-    border-radius: 5px;
     cursor:pointer;
     padding: 10px;
     margin-top: 5px;
     font-weight: bold;
-    color: black;
-    background-image: white;
+    color: white;
+    background-color: white;
+    border:none;
 }
 .container:hover
 {
-    box-shadow: 0 10px 10px rgb(107, 112, 185);
-} 
+    box-shadow: 0 10px 10px rgb(167, 167, 167);
+}
